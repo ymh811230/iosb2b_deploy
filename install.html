@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Samsung B2B App Install</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; text-align: center; padding: 50px; background: #f4f4f9; color: #1c1c1e; }
+        .container { max-width: 400px; margin: 0 auto; }
+        h2 { margin-bottom: 30px; color: #034EA2; }
+        .btn { 
+            display: block; width: 100%; margin: 15px 0; padding: 18px; 
+            background: #034EA2; color: white; border-radius: 12px; 
+            text-decoration: none; font-weight: bold; font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .btn:active { background: #023a7a; transform: translateY(1px); }
+        .info { color: #8e8e93; font-size: 13px; margin-top: 30px; line-height: 1.6; text-align: left; background: white; padding: 15px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Samsung B2B 서비스 설치</h2>
+        
+        <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/ymh811230/iosb2b_deploy/main/familynetmall_1.0.9/manifest.plist">
+            Familynet Mall 설치
+        </a>
+        
+        <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/ymh811230/iosb2b_deploy/main/solpopmall_1.0.9/manifest.plist">
+            Solpop Mall 설치
+        </a>
+        
+        <a class="btn" href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/ymh811230/iosb2b_deploy/main/welfaremall_1.0.9/manifest.plist">
+            Welfare Mall 설치
+        </a>
+
+        <div class="info">
+            <strong>⚠️ 설치 안내</strong><br>
+            1. 반드시 <strong>Safari 브라우저</strong>에서 실행해 주세요.<br>
+            2. '설치' 팝업이 뜨면 확인을 누르고 홈 화면을 확인하세요.<br>
+            3. 실행 시 '신뢰할 수 없는 개발자' 오류가 발생하면:<br>
+            &nbsp;&nbsp;→ <strong>설정 > 일반 > VPN 및 기기 관리</strong>에서 해당 개발자를 <strong>'신뢰'</strong>로 설정해야 합니다.
+        </div>
+    </div>
+</body>
+</html>
