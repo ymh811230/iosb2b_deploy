@@ -1,0 +1,681 @@
+2026-04-29 00:35:47 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x927f4db00; archive(resolved)="<IDEArchive: 0x968f91c70>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x927f4db00; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x928e52d00; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x9274d7480; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x928bfb700; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x928bf8500; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x928bf8280; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x92819d180; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x92819d400; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x92edc6580; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x93c67f940; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='cg73.kim@partner.samsung.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x928d73980; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="(null)">
+	<IDEDistributionContext: 0x92847cf00; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="(null)">
+	<IDEDistributionContext: 0x928488780; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="(null)">
+	<IDEDistributionContext: 0x927fa2a80; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x92e17fb10>", team="(null)">
+	<IDEDistributionContext: 0x92847d400; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x92847d680; archive = "<IDEArchive: 0x968f91c70>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x927f4db00>
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionCreateDestRootStep
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionCopyItemStep
+2026-04-29 00:35:47 +0000  Running /usr/bin/ditto '-V' '/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app'
+2026-04-29 00:35:47 +0000  >>> Copying /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app 
+2026-04-29 00:35:47 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  28380 bytes for ./_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./AppIcon_WEL60x60@2x.png ... 
+2026-04-29 00:35:47 +0000  7157 bytes for ./AppIcon_WEL60x60@2x.png
+2026-04-29 00:35:47 +0000  copying file ./samsung_one_korean_700.ttf ... 
+2026-04-29 00:35:47 +0000  3651976 bytes for ./samsung_one_korean_700.ttf
+2026-04-29 00:35:47 +0000  copying file ./samsung_sharpsans_bold.ttf ... 
+2026-04-29 00:35:47 +0000  219252 bytes for ./samsung_sharpsans_bold.ttf
+2026-04-29 00:35:47 +0000  copying file ./AppIcon_WEL76x76@2x~ipad.png ... 
+2026-04-29 00:35:47 +0000  8802 bytes for ./AppIcon_WEL76x76@2x~ipad.png
+2026-04-29 00:35:47 +0000  copying file ./GoogleService-Info-Wel.plist ... 
+2026-04-29 00:35:47 +0000  499 bytes for ./GoogleService-Info-Wel.plist
+2026-04-29 00:35:47 +0000  copying file ./Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib ... 
+2026-04-29 00:35:47 +0000  5033 bytes for ./Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib
+2026-04-29 00:35:47 +0000  copying file ./Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib ... 
+2026-04-29 00:35:47 +0000  14395 bytes for ./Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib
+2026-04-29 00:35:47 +0000  copying file ./Setting.storyboardc/OpenSourceVC.nib ... 
+2026-04-29 00:35:47 +0000  1122 bytes for ./Setting.storyboardc/OpenSourceVC.nib
+2026-04-29 00:35:47 +0000  copying file ./Setting.storyboardc/Info.plist ... 
+2026-04-29 00:35:47 +0000  169 bytes for ./Setting.storyboardc/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Setting.storyboardc/SettingVC.nib ... 
+2026-04-29 00:35:47 +0000  29043 bytes for ./Setting.storyboardc/SettingVC.nib
+2026-04-29 00:35:47 +0000  copying file ./welfaremall ... 
+2026-04-29 00:35:47 +0000  4499808 bytes for ./welfaremall
+2026-04-29 00:35:47 +0000  copying file ./PlugIns/welfaremall notification.appex/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  2040 bytes for ./PlugIns/welfaremall notification.appex/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./PlugIns/welfaremall notification.appex/welfaremall notification ... 
+2026-04-29 00:35:47 +0000  91536 bytes for ./PlugIns/welfaremall notification.appex/welfaremall notification
+2026-04-29 00:35:47 +0000  copying file ./PlugIns/welfaremall notification.appex/embedded.mobileprovision ... 
+2026-04-29 00:35:47 +0000  12269 bytes for ./PlugIns/welfaremall notification.appex/embedded.mobileprovision
+2026-04-29 00:35:47 +0000  copying file ./PlugIns/welfaremall notification.appex/Info.plist ... 
+2026-04-29 00:35:47 +0000  1007 bytes for ./PlugIns/welfaremall notification.appex/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib ... 
+2026-04-29 00:35:47 +0000  9478 bytes for ./Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib
+2026-04-29 00:35:47 +0000  copying file ./Alert.storyboardc/BasicAlertVC.nib ... 
+2026-04-29 00:35:47 +0000  12312 bytes for ./Alert.storyboardc/BasicAlertVC.nib
+2026-04-29 00:35:47 +0000  copying file ./Alert.storyboardc/Info.plist ... 
+2026-04-29 00:35:47 +0000  145 bytes for ./Alert.storyboardc/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./samsung_one_korean_400.ttf ... 
+2026-04-29 00:35:47 +0000  3590680 bytes for ./samsung_one_korean_400.ttf
+2026-04-29 00:35:47 +0000  copying file ./GoogleService-Info.plist ... 
+2026-04-29 00:35:47 +0000  566 bytes for ./GoogleService-Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib ... 
+2026-04-29 00:35:47 +0000  2579 bytes for ./Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib ... 
+2026-04-29 00:35:47 +0000  1365 bytes for ./Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/PopupVC.nib ... 
+2026-04-29 00:35:47 +0000  1036 bytes for ./Base.lproj/Main.storyboardc/PopupVC.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib ... 
+2026-04-29 00:35:47 +0000  10843 bytes for ./Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib ... 
+2026-04-29 00:35:47 +0000  4519 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC2.nib ... 
+2026-04-29 00:35:47 +0000  967 bytes for ./Base.lproj/Main.storyboardc/GuideVC2.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC3.nib ... 
+2026-04-29 00:35:47 +0000  967 bytes for ./Base.lproj/Main.storyboardc/GuideVC3.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib ... 
+2026-04-29 00:35:47 +0000  22569 bytes for ./Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib ... 
+2026-04-29 00:35:47 +0000  2607 bytes for ./Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC1.nib ... 
+2026-04-29 00:35:47 +0000  967 bytes for ./Base.lproj/Main.storyboardc/GuideVC1.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib ... 
+2026-04-29 00:35:47 +0000  1840 bytes for ./Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib ... 
+2026-04-29 00:35:47 +0000  2593 bytes for ./Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib ... 
+2026-04-29 00:35:47 +0000  2575 bytes for ./Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-04-29 00:35:47 +0000  2667 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib ... 
+2026-04-29 00:35:47 +0000  4580 bytes for ./Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib ... 
+2026-04-29 00:35:47 +0000  5330 bytes for ./Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib ... 
+2026-04-29 00:35:47 +0000  2597 bytes for ./Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol3.nib ... 
+2026-04-29 00:35:47 +0000  968 bytes for ./Base.lproj/Main.storyboardc/GuideSol3.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol2.nib ... 
+2026-04-29 00:35:47 +0000  968 bytes for ./Base.lproj/Main.storyboardc/GuideSol2.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib ... 
+2026-04-29 00:35:47 +0000  2634 bytes for ./Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol1.nib ... 
+2026-04-29 00:35:47 +0000  968 bytes for ./Base.lproj/Main.storyboardc/GuideSol1.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib ... 
+2026-04-29 00:35:47 +0000  2630 bytes for ./Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol4.nib ... 
+2026-04-29 00:35:47 +0000  968 bytes for ./Base.lproj/Main.storyboardc/GuideSol4.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2026-04-29 00:35:47 +0000  661 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/Main.storyboardc/WebViewController.nib ... 
+2026-04-29 00:35:47 +0000  1129 bytes for ./Base.lproj/Main.storyboardc/WebViewController.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-04-29 00:35:47 +0000  1225 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-04-29 00:35:47 +0000  924 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-04-29 00:35:47 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-04-29 00:35:47 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./GoogleService-Info-Stg.plist ... 
+2026-04-29 00:35:47 +0000  576 bytes for ./GoogleService-Info-Stg.plist
+2026-04-29 00:35:47 +0000  copying file ./Assets.car ... 
+2026-04-29 00:35:47 +0000  1511944 bytes for ./Assets.car
+2026-04-29 00:35:47 +0000  copying file ./TouchEn_AntiCapture_License.rsl ... 
+2026-04-29 00:35:47 +0000  1096 bytes for ./TouchEn_AntiCapture_License.rsl
+2026-04-29 00:35:47 +0000  copying file ./GoogleService-Info-Dev.plist ... 
+2026-04-29 00:35:47 +0000  581 bytes for ./GoogleService-Info-Dev.plist
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  8859 bytes for ./Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/LICENSE ... 
+2026-04-29 00:35:47 +0000  1481 bytes for ./Frameworks/TouchEn_AntiCapture.framework/LICENSE
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture ... 
+2026-04-29 00:35:47 +0000  507200 bytes for ./Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings ... 
+2026-04-29 00:35:47 +0000  168 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html ... 
+2026-04-29 00:35:47 +0000  7938 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css ... 
+2026-04-29 00:35:47 +0000  121220 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css ... 
+2026-04-29 00:35:47 +0000  655 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css ... 
+2026-04-29 00:35:47 +0000  2696 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css ... 
+2026-04-29 00:35:47 +0000  14936 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js ... 
+2026-04-29 00:35:47 +0000  15085 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js ... 
+2026-04-29 00:35:47 +0000  4377 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js ... 
+2026-04-29 00:35:47 +0000  61692 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js ... 
+2026-04-29 00:35:47 +0000  9581 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js ... 
+2026-04-29 00:35:47 +0000  96381 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js ... 
+2026-04-29 00:35:47 +0000  29110 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js ... 
+2026-04-29 00:35:47 +0000  977 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js ... 
+2026-04-29 00:35:47 +0000  2429 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js ... 
+2026-04-29 00:35:47 +0000  24496 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js ... 
+2026-04-29 00:35:47 +0000  10612 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist ... 
+2026-04-29 00:35:47 +0000  126 bytes for ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/README.md ... 
+2026-04-29 00:35:47 +0000  27194 bytes for ./Frameworks/TouchEn_AntiCapture.framework/README.md
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/Info.plist ... 
+2026-04-29 00:35:47 +0000  845 bytes for ./Frameworks/TouchEn_AntiCapture.framework/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  1798 bytes for ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-04-29 00:35:47 +0000  51408 bytes for ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-04-29 00:35:47 +0000  647 bytes for ./Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  1798 bytes for ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-04-29 00:35:47 +0000  51408 bytes for ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-04-29 00:35:47 +0000  638 bytes for ./Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  1798 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-04-29 00:35:47 +0000  51440 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-04-29 00:35:47 +0000  692 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  2102 bytes for ./Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/RSLicenseSDK.framework/Acknowledgements.md ... 
+2026-04-29 00:35:47 +0000  5887 bytes for ./Frameworks/RSLicenseSDK.framework/Acknowledgements.md
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/RSLicenseSDK.framework/RSLicenseSDK ... 
+2026-04-29 00:35:47 +0000  857360 bytes for ./Frameworks/RSLicenseSDK.framework/RSLicenseSDK
+2026-04-29 00:35:47 +0000  copying file ./Frameworks/RSLicenseSDK.framework/Info.plist ... 
+2026-04-29 00:35:47 +0000  709 bytes for ./Frameworks/RSLicenseSDK.framework/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./embedded.mobileprovision ... 
+2026-04-29 00:35:47 +0000  12403 bytes for ./embedded.mobileprovision
+2026-04-29 00:35:47 +0000  copying file ./Info.plist ... 
+2026-04-29 00:35:47 +0000  3016 bytes for ./Info.plist
+2026-04-29 00:35:47 +0000  copying file ./PkgInfo ... 
+2026-04-29 00:35:47 +0000  8 bytes for ./PkgInfo
+2026-04-29 00:35:47 +0000  /usr/bin/ditto exited with 0
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionEmbedProfileStep
+2026-04-29 00:35:47 +0000  Skipping profile for item: <IDEDistributionItem: 0x926f2c4e0; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x960274f50:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x960277e20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>
+2026-04-29 00:35:47 +0000  Skipping profile for item: <IDEDistributionItem: 0x926f2c420; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x9510e4d20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c3c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x943e338e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>
+2026-04-29 00:35:47 +0000  Skipping profile for item: <IDEDistributionItem: 0x926f2c780; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x92781b780:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c720; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x927819800:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>
+2026-04-29 00:35:47 +0000  Skipping profile for item: <IDEDistributionItem: 0x926f2c6c0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x943e32ae0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x926d9d8c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'>
+2026-04-29 00:35:47 +0000  Skipping profile for item: <IDEDistributionItem: 0x927104300; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x943e32760:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c5a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x968f7cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'>
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionInfoPlistStep
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionSymbolsStep
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionAppThinningStep
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionArchThinningStep
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework are []
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework are []
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework are []
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework are []
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework are []
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex are []
+2026-04-29 00:35:47 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app are []
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionODRStep
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionStripXattrsStep
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionCodesignStep
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c4e0; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x960274f50:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x960277e20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>: {
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c4e0; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x960274f50:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x960277e20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> are: {
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x926f2c4e0; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x960274f50:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c480; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x960277e20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~a0OgkO
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~a0OgkO",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-FirebaseAnalytics]
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c420; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x9510e4d20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c3c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x943e338e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>: {
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c420; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x9510e4d20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c3c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x943e338e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> are: {
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x926f2c420; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x9510e4d20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c3c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x943e338e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~4H9DaP
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~4H9DaP",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-GoogleAppMeasurement]
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c780; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x92781b780:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c720; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x927819800:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>: {
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c780; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x92781b780:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c720; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x927819800:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> are: {
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x926f2c780; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x92781b780:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c720; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x927819800:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~lHpp7r
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~lHpp7r",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-GoogleAppMeasurementIdentitySupport]
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c6c0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x943e32ae0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x926d9d8c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'>: {
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c6c0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x943e32ae0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x926d9d8c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'> are: {
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x926f2c6c0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x943e32ae0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x926d9d8c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~nirfBe
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~nirfBe",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework: signed bundle with Mach-O universal (armv7 armv7s arm64) [com.raonsecure.RSLicenseSDK]
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x927104300; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x943e32760:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c5a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x968f7cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'>: {
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x927104300; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x943e32760:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c5a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x968f7cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'> are: {
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x927104300; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x943e32760:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c5a0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x968f7cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~XnSc0I
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~XnSc0I",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework: signed bundle with Mach-O thin (arm64) [com.raonsecure.TouchEn-AntiCapture]
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c600; bundleID='com.samsung.welfare.ios.notification', path='<DVTFilePath:0x92ec6d040:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x9271067c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios.notification";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.welfare.ios.notification', executablePath='<DVTFilePath:0x92ec6ca00:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex/welfaremall notification'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios.notification";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c600; bundleID='com.samsung.welfare.ios.notification', path='<DVTFilePath:0x92ec6d040:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x9271067c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios.notification";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.welfare.ios.notification', executablePath='<DVTFilePath:0x92ec6ca00:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex/welfaremall notification'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios.notification";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x926f2c600; bundleID='com.samsung.welfare.ios.notification', path='<DVTFilePath:0x92ec6d040:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x9271067c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios.notification";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.welfare.ios.notification', executablePath='<DVTFilePath:0x92ec6ca00:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/PlugIns/welfaremall notification.appex/welfaremall notification'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~BZknJp
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~BZknJp",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/PlugIns/welfaremall notification.appex"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/PlugIns/welfaremall notification.appex: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/PlugIns/welfaremall notification.appex: signed bundle with Mach-O thin (arm64) [com.samsung.welfare.ios.notification]
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c840; bundleID='com.samsung.welfare.ios', path='<DVTFilePath:0x9273b0a20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4240; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.welfare.ios', executablePath='<DVTFilePath:0x926f2cba0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/welfaremall'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-04-29 00:35:47 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-04-29 00:35:47 +0000  Entitlements for <IDEDistributionItem: 0x926f2c840; bundleID='com.samsung.welfare.ios', path='<DVTFilePath:0x9273b0a20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.welfare.ios', executablePath='<DVTFilePath:0x926f2cba0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/welfaremall'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-04-29 00:35:47 +0000  Writing entitlements for <IDEDistributionItem: 0x926f2c840; bundleID='com.samsung.welfare.ios', path='<DVTFilePath:0x9273b0a20:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x926f2c7e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x92e1f4cc0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.welfare.ios";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.welfare.ios', executablePath='<DVTFilePath:0x926f2cba0:'/Users/famous/Library/Developer/Xcode/Archives/2026-04-29/welfaremall 4-29-26, 9.35 AM.xcarchive/Products/Applications/welfaremall.app/welfaremall'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~HMdOYR
+2026-04-29 00:35:47 +0000  invoking codesign: <NSConcreteTask: 0x9277f4780; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/entitlements~~~HMdOYR",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app"
+)'>
+2026-04-29 00:35:47 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app: signed app bundle with Mach-O thin (arm64) [com.samsung.welfare.ios]
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionZipODRItemStep
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-04-29 00:35:47 +0000  Processing step: IDEDistributionCreateIPAStep
+2026-04-29 00:35:47 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Packages/welfaremall.ipa'
+2026-04-29 00:35:47 +0000  >>> Copying /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root 
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:47 +0000  28380 bytes for ./Payload/welfaremall.app/_CodeSignature/CodeResources
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/AppIcon_WEL60x60@2x.png ... 
+2026-04-29 00:35:47 +0000  7157 bytes for ./Payload/welfaremall.app/AppIcon_WEL60x60@2x.png
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/samsung_one_korean_700.ttf ... 
+2026-04-29 00:35:47 +0000  3651976 bytes for ./Payload/welfaremall.app/samsung_one_korean_700.ttf
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/samsung_sharpsans_bold.ttf ... 
+2026-04-29 00:35:47 +0000  219252 bytes for ./Payload/welfaremall.app/samsung_sharpsans_bold.ttf
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/AppIcon_WEL76x76@2x~ipad.png ... 
+2026-04-29 00:35:47 +0000  8802 bytes for ./Payload/welfaremall.app/AppIcon_WEL76x76@2x~ipad.png
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/GoogleService-Info-Wel.plist ... 
+2026-04-29 00:35:47 +0000  499 bytes for ./Payload/welfaremall.app/GoogleService-Info-Wel.plist
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib ... 
+2026-04-29 00:35:47 +0000  5033 bytes for ./Payload/welfaremall.app/Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib ... 
+2026-04-29 00:35:47 +0000  14395 bytes for ./Payload/welfaremall.app/Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Setting.storyboardc/OpenSourceVC.nib ... 
+2026-04-29 00:35:47 +0000  1122 bytes for ./Payload/welfaremall.app/Setting.storyboardc/OpenSourceVC.nib
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Setting.storyboardc/Info.plist ... 
+2026-04-29 00:35:47 +0000  169 bytes for ./Payload/welfaremall.app/Setting.storyboardc/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Setting.storyboardc/SettingVC.nib ... 
+2026-04-29 00:35:47 +0000  29043 bytes for ./Payload/welfaremall.app/Setting.storyboardc/SettingVC.nib
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/welfaremall ... 
+2026-04-29 00:35:47 +0000  4499808 bytes for ./Payload/welfaremall.app/welfaremall
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/_CodeSignature/CodeResources ... 
+2040 bytes for ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/_CodeSignature/CodeResources
+copying file ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/welfaremall notification ... 
+2026-04-29 00:35:47 +0000  91536 bytes for ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/welfaremall notification
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/embedded.mobileprovision ... 
+2026-04-29 00:35:47 +0000  12269 bytes for ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/embedded.mobileprovision
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/Info.plist ... 
+2026-04-29 00:35:47 +0000  1007 bytes for ./Payload/welfaremall.app/PlugIns/welfaremall notification.appex/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib ... 
+2026-04-29 00:35:47 +0000  9478 bytes for ./Payload/welfaremall.app/Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Alert.storyboardc/BasicAlertVC.nib ... 
+2026-04-29 00:35:47 +0000  12312 bytes for ./Payload/welfaremall.app/Alert.storyboardc/BasicAlertVC.nib
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/Alert.storyboardc/Info.plist ... 
+145 bytes for ./Payload/welfaremall.app/Alert.storyboardc/Info.plist
+2026-04-29 00:35:47 +0000  copying file ./Payload/welfaremall.app/samsung_one_korean_400.ttf ... 
+2026-04-29 00:35:48 +0000  3590680 bytes for ./Payload/welfaremall.app/samsung_one_korean_400.ttf
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/GoogleService-Info.plist ... 
+566 bytes for ./Payload/welfaremall.app/GoogleService-Info.plist
+copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib ... 
+2579 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib
+copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib ... 
+2026-04-29 00:35:48 +0000  1365 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib
+copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/PopupVC.nib ... 
+2026-04-29 00:35:48 +0000  1036 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/PopupVC.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib ... 
+2026-04-29 00:35:48 +0000  10843 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib ... 
+2026-04-29 00:35:48 +0000  4519 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideVC2.nib ... 
+2026-04-29 00:35:48 +0000  967 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideVC2.nib
+copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideVC3.nib ... 
+2026-04-29 00:35:48 +0000  967 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideVC3.nib
+copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib ... 
+2026-04-29 00:35:48 +0000  22569 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib ... 
+2026-04-29 00:35:48 +0000  2607 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideVC1.nib ... 
+2026-04-29 00:35:48 +0000  967 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideVC1.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib ... 
+2026-04-29 00:35:48 +0000  1840 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib ... 
+2026-04-29 00:35:48 +0000  2593 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib ... 
+2026-04-29 00:35:48 +0000  2575 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-04-29 00:35:48 +0000  2667 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib ... 
+2026-04-29 00:35:48 +0000  4580 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib ... 
+2026-04-29 00:35:48 +0000  5330 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib ... 
+2026-04-29 00:35:48 +0000  2597 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol3.nib ... 
+2026-04-29 00:35:48 +0000  968 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol3.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol2.nib ... 
+2026-04-29 00:35:48 +0000  968 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol2.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib ... 
+2026-04-29 00:35:48 +0000  2634 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol1.nib ... 
+2026-04-29 00:35:48 +0000  968 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol1.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib ... 
+2026-04-29 00:35:48 +0000  2630 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol4.nib ... 
+2026-04-29 00:35:48 +0000  968 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/GuideSol4.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2026-04-29 00:35:48 +0000  661 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/WebViewController.nib ... 
+2026-04-29 00:35:48 +0000  1129 bytes for ./Payload/welfaremall.app/Base.lproj/Main.storyboardc/WebViewController.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-04-29 00:35:48 +0000  1225 bytes for ./Payload/welfaremall.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-04-29 00:35:48 +0000  924 bytes for ./Payload/welfaremall.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-04-29 00:35:48 +0000  258 bytes for ./Payload/welfaremall.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/GoogleService-Info-Stg.plist ... 
+2026-04-29 00:35:48 +0000  576 bytes for ./Payload/welfaremall.app/GoogleService-Info-Stg.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Assets.car ... 
+2026-04-29 00:35:48 +0000  1511944 bytes for ./Payload/welfaremall.app/Assets.car
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/TouchEn_AntiCapture_License.rsl ... 
+2026-04-29 00:35:48 +0000  1096 bytes for ./Payload/welfaremall.app/TouchEn_AntiCapture_License.rsl
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/GoogleService-Info-Dev.plist ... 
+581 bytes for ./Payload/welfaremall.app/GoogleService-Info-Dev.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:48 +0000  8859 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/LICENSE ... 
+2026-04-29 00:35:48 +0000  1481 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/LICENSE
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture ... 
+2026-04-29 00:35:48 +0000  507200 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings ... 
+2026-04-29 00:35:48 +0000  168 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html ... 
+2026-04-29 00:35:48 +0000  7938 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css ... 
+2026-04-29 00:35:48 +0000  121220 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css ... 
+2026-04-29 00:35:48 +0000  655 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css ... 
+2026-04-29 00:35:48 +0000  2696 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css ... 
+2026-04-29 00:35:48 +0000  14936 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js ... 
+2026-04-29 00:35:48 +0000  15085 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js ... 
+2026-04-29 00:35:48 +0000  4377 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js ... 
+2026-04-29 00:35:48 +0000  61692 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js ... 
+2026-04-29 00:35:48 +0000  9581 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js ... 
+2026-04-29 00:35:48 +0000  96381 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js ... 
+2026-04-29 00:35:48 +0000  29110 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js ... 
+2026-04-29 00:35:48 +0000  977 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js ... 
+2026-04-29 00:35:48 +0000  2429 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js ... 
+2026-04-29 00:35:48 +0000  24496 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js ... 
+2026-04-29 00:35:48 +0000  10612 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist ... 
+2026-04-29 00:35:48 +0000  126 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/README.md ... 
+2026-04-29 00:35:48 +0000  27194 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/README.md
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/Info.plist ... 
+2026-04-29 00:35:48 +0000  845 bytes for ./Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:48 +0000  1798 bytes for ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-04-29 00:35:48 +0000  51408 bytes for ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-04-29 00:35:48 +0000  647 bytes for ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:48 +0000  1798 bytes for ./Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-04-29 00:35:48 +0000  51408 bytes for ./Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-04-29 00:35:48 +0000  638 bytes for ./Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:48 +0000  1798 bytes for ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-04-29 00:35:48 +0000  51440 bytes for ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-04-29 00:35:48 +0000  692 bytes for ./Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources ... 
+2026-04-29 00:35:48 +0000  2102 bytes for ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/Acknowledgements.md ... 
+2026-04-29 00:35:48 +0000  5887 bytes for ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/Acknowledgements.md
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK ... 
+2026-04-29 00:35:48 +0000  857360 bytes for ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/Info.plist ... 
+2026-04-29 00:35:48 +0000  709 bytes for ./Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework/Info.plist
+copying file ./Payload/welfaremall.app/embedded.mobileprovision ... 
+2026-04-29 00:35:48 +0000  12403 bytes for ./Payload/welfaremall.app/embedded.mobileprovision
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/Info.plist ... 
+2026-04-29 00:35:48 +0000  3016 bytes for ./Payload/welfaremall.app/Info.plist
+2026-04-29 00:35:48 +0000  copying file ./Payload/welfaremall.app/PkgInfo ... 
+2026-04-29 00:35:48 +0000  8 bytes for ./Payload/welfaremall.app/PkgInfo
+2026-04-29 00:35:48 +0000  /usr/bin/ditto exited with 0
+2026-04-29 00:35:48 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2026-04-29 00:35:48 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-04-29 00:35:48 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x926d71a40:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/PlugIns/welfaremall notification.appex'>
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x968f63100:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/RSLicenseSDK.framework'>
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x968f60af0:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/TouchEn_AntiCapture.framework'>
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x968f621b0:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/FirebaseAnalytics.framework'>
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x926fb0400:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x968f62140:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app/Frameworks/GoogleAppMeasurement.framework'>
+2026-04-29 00:35:48 +0000  IDEDistributionItem init <DVTFilePath:0x927107600:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Un6dPW/Root/Payload/welfaremall.app'>
+2026-04-29 00:35:48 +0000  Processing step: IDEDistributionCreateManifestStep
