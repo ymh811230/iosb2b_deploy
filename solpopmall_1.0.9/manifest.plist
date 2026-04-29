@@ -17,13 +17,13 @@
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.samsung.familynetmall.prd</string>
+                <string>com.samsung.solpopmall.prd</string>
                 <key>bundle-version</key>
                 <string>1.0.9</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>Familynet Mall</string>
+                <string>solpopmall</string>
             </dict>
         </dict>
     </array>
