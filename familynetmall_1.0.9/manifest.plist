@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://firebasestorage.googleapis.com/v0/b/samsungb2binstall.firebasestorage.app/o/familynetmall%2Ffamilynetmall.ipa?alt=media&token=4e2cbe13-b0e0-40bd-b7ae-d9d26ce8d128</string>
+                    <string>https://raw.githubusercontent.com/ymh811230/iosb2b_deploy/main/familynetmall_1.0.9/familynetmall.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
