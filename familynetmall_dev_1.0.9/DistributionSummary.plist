@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>familynetmall dev.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+				<key>dateExpires</key>
+				<string>2/20/27</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>10.17.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<key>dateExpires</key>
+						<string>2/20/27</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseAnalytics.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7CAAQRL44H</string>
+						<key>name</key>
+						<string>Myoung Han Yoo</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>10.17.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<key>dateExpires</key>
+						<string>2/20/27</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleAppMeasurement.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7CAAQRL44H</string>
+						<key>name</key>
+						<string>Myoung Han Yoo</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>10.17.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<key>dateExpires</key>
+						<string>2/20/27</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleAppMeasurementIdentitySupport.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7CAAQRL44H</string>
+						<key>name</key>
+						<string>Myoung Han Yoo</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>armv7s</string>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1.0.9</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<key>dateExpires</key>
+						<string>2/20/27</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>RSLicenseSDK.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7CAAQRL44H</string>
+						<key>name</key>
+						<string>Myoung Han Yoo</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0.9</string>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<key>dateExpires</key>
+						<string>2/20/27</string>
+						<key>type</key>
+						<string>Cloud Managed Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>TouchEn_AntiCapture.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7CAAQRL44H</string>
+						<key>name</key>
+						<string>Myoung Han Yoo</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0.5</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>7CAAQRL44H.com.samsung.familynetmall.test.dev</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>7CAAQRL44H</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>familynetmall dev.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c3357996-4495-4129-b29a-3189cc1b103e</string>
+				<key>dateExpires</key>
+				<string>2/20/27</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.samsung.familynetmall.test.dev</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>7CAAQRL44H</string>
+				<key>name</key>
+				<string>Myoung Han Yoo</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0.7</string>
+		</dict>
+	</array>
+</dict>
+</plist>
