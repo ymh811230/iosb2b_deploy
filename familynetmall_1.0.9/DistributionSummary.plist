@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>familynetmall.ipa</key>
+	<key>familynetmall dev.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
@@ -10,15 +10,15 @@
 				<string>arm64</string>
 			</array>
 			<key>buildNumber</key>
-			<string>2</string>
+			<string>1</string>
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
+				<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 				<key>dateExpires</key>
-				<string>11/5/28</string>
+				<string>5/11/27</string>
 				<key>type</key>
-				<string>iOS Distribution</string>
+				<string>Apple Distribution</string>
 			</dict>
 			<key>embeddedBinaries</key>
 			<array>
@@ -32,20 +32,20 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>11/5/28</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>iOS Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>FirebaseAnalytics.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
-						<string>254B9J7846</string>
+						<string>7CAAQRL44H</string>
 						<key>name</key>
-						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
+						<string>Myoung Han Yoo</string>
 					</dict>
 				</dict>
 				<dict>
@@ -58,20 +58,20 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>11/5/28</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>iOS Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>GoogleAppMeasurement.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
-						<string>254B9J7846</string>
+						<string>7CAAQRL44H</string>
 						<key>name</key>
-						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
+						<string>Myoung Han Yoo</string>
 					</dict>
 				</dict>
 				<dict>
@@ -84,20 +84,20 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>11/5/28</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>iOS Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>GoogleAppMeasurementIdentitySupport.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
-						<string>254B9J7846</string>
+						<string>7CAAQRL44H</string>
 						<key>name</key>
-						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
+						<string>Myoung Han Yoo</string>
 					</dict>
 				</dict>
 				<dict>
@@ -112,20 +112,20 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>11/5/28</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>iOS Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>RSLicenseSDK.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
-						<string>254B9J7846</string>
+						<string>7CAAQRL44H</string>
 						<key>name</key>
-						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
+						<string>Myoung Han Yoo</string>
 					</dict>
 					<key>versionNumber</key>
 					<string>1.0.9</string>
@@ -140,102 +140,56 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>11/5/28</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>iOS Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>TouchEn_AntiCapture.framework</string>
 					<key>team</key>
 					<dict>
 						<key>id</key>
-						<string>254B9J7846</string>
+						<string>7CAAQRL44H</string>
 						<key>name</key>
-						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
+						<string>Myoung Han Yoo</string>
 					</dict>
 					<key>versionNumber</key>
 					<string>1.0.5</string>
-				</dict>
-				<dict>
-					<key>architectures</key>
-					<array>
-						<string>arm64</string>
-					</array>
-					<key>buildNumber</key>
-					<string>1</string>
-					<key>certificate</key>
-					<dict>
-						<key>SHA1</key>
-						<string>3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5</string>
-						<key>dateExpires</key>
-						<string>11/5/28</string>
-						<key>type</key>
-						<string>iOS Distribution</string>
-					</dict>
-					<key>entitlements</key>
-					<dict>
-						<key>application-identifier</key>
-						<string>254B9J7846.com.samsung.familynetmall.prd.prdNotiService</string>
-						<key>com.apple.developer.team-identifier</key>
-						<string>254B9J7846</string>
-						<key>get-task-allow</key>
-						<false/>
-					</dict>
-					<key>name</key>
-					<string>prdNotiService.appex</string>
-					<key>profile</key>
-					<dict>
-						<key>UUID</key>
-						<string>860fc2ce-4a0f-4e6b-9117-0840211da1bc</string>
-						<key>dateExpires</key>
-						<string>4/13/27</string>
-						<key>name</key>
-						<string>InHouse_com.samsung.familynetmall.prd.prdNotiService</string>
-					</dict>
-					<key>team</key>
-					<dict>
-						<key>id</key>
-						<string>254B9J7846</string>
-						<key>name</key>
-						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
-					</dict>
-					<key>versionNumber</key>
-					<string>1.0.4</string>
 				</dict>
 			</array>
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>254B9J7846.com.samsung.familynetmall.prd</string>
+				<string>7CAAQRL44H.com.samsung.familynetmall.test.dev</string>
 				<key>aps-environment</key>
 				<string>production</string>
 				<key>com.apple.developer.team-identifier</key>
-				<string>254B9J7846</string>
+				<string>7CAAQRL44H</string>
 				<key>get-task-allow</key>
 				<false/>
 			</dict>
 			<key>name</key>
-			<string>familynetmall.app</string>
+			<string>familynetmall dev.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>21319f8d-26bd-462f-ae91-d9ea26b20e03</string>
+				<string>71878c47-0ccc-46dd-8924-24a2b529fe27</string>
 				<key>dateExpires</key>
-				<string>11/7/26</string>
+				<string>5/11/27</string>
 				<key>name</key>
-				<string>samsung.familynetmall</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.samsung.familynetmall.test.dev</string>
 			</dict>
 			<key>team</key>
 			<dict>
 				<key>id</key>
-				<string>254B9J7846</string>
+				<string>7CAAQRL44H</string>
 				<key>name</key>
-				<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
+				<string>Myoung Han Yoo</string>
 			</dict>
 			<key>versionNumber</key>
-			<string>1.0.9</string>
+			<string>1.0.7</string>
 		</dict>
 	</array>
 </dict>
