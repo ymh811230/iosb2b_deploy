@@ -14,11 +14,11 @@
 			<key>certificate</key>
 			<dict>
 				<key>SHA1</key>
-				<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+				<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 				<key>dateExpires</key>
-				<string>2/20/27</string>
+				<string>5/11/27</string>
 				<key>type</key>
-				<string>Cloud Managed Apple Distribution</string>
+				<string>Apple Distribution</string>
 			</dict>
 			<key>embeddedBinaries</key>
 			<array>
@@ -32,11 +32,11 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>2/20/27</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>Cloud Managed Apple Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>FirebaseAnalytics.framework</string>
@@ -58,11 +58,11 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>2/20/27</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>Cloud Managed Apple Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>GoogleAppMeasurement.framework</string>
@@ -84,11 +84,11 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>2/20/27</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>Cloud Managed Apple Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>GoogleAppMeasurementIdentitySupport.framework</string>
@@ -112,11 +112,11 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>2/20/27</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>Cloud Managed Apple Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>RSLicenseSDK.framework</string>
@@ -140,11 +140,11 @@
 					<key>certificate</key>
 					<dict>
 						<key>SHA1</key>
-						<string>797C0BD3C15D692E8E55DD800FE3F12F989E381C</string>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
 						<key>dateExpires</key>
-						<string>2/20/27</string>
+						<string>5/11/27</string>
 						<key>type</key>
-						<string>Cloud Managed Apple Distribution</string>
+						<string>Apple Distribution</string>
 					</dict>
 					<key>name</key>
 					<string>TouchEn_AntiCapture.framework</string>
@@ -175,9 +175,9 @@
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>c3357996-4495-4129-b29a-3189cc1b103e</string>
+				<string>71878c47-0ccc-46dd-8924-24a2b529fe27</string>
 				<key>dateExpires</key>
-				<string>2/20/27</string>
+				<string>5/11/27</string>
 				<key>name</key>
 				<string>iOS Team Ad Hoc Provisioning Profile: com.samsung.familynetmall.test.dev</string>
 			</dict>
