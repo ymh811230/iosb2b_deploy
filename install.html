@@ -42,6 +42,26 @@
         }
         .btn:active { background: #023a7a; transform: translateY(1px); }
         .info { color: #8e8e93; font-size: 13px; margin-top: 30px; line-height: 1.6; text-align: left; background: white; padding: 15px; border-radius: 10px; }
+
+        /* 반응형 버튼 사이즈 조절 */
+        @media (max-width: 768px) {
+            .btn { 
+                padding: 10px; 
+                font-size: 12px; 
+            }
+            .app-card { 
+                padding: 15px; 
+            }
+        }
+        @media (min-width: 1200px) {
+            .btn { 
+                padding: 15px; 
+                font-size: 16px; 
+            }
+            .app-card { 
+                padding: 25px; 
+            }
+        }
     </style>
 </head>
 <body>
