@@ -27,8 +27,11 @@
             text-align: center; 
         }
         .btn { 
-            display: block; 
-            width: 90%; 
+            display: inline-flex; 
+            justify-content: center; 
+            align-items: center; 
+            width: 100%; 
+            min-height: 44px; 
             margin: 10px 0; 
             padding: 12px; 
             background: #034EA2; 
@@ -41,17 +44,35 @@
             text-align: center;
         }
         .btn:active { background: #023a7a; transform: translateY(1px); }
-        .info { color: #8e8e93; font-size: 13px; margin-top: 30px; line-height: 1.6; text-align: left; background: white; padding: 15px; border-radius: 10px; }
+        .top-alert {
+            background: linear-gradient(135deg, #fff4e5, #ffe7c2);
+            border: 1px solid #f5c46f;
+            color: #8c4b00;
+            padding: 18px 20px;
+            border-radius: 14px;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+            margin-bottom: 24px;
+            text-align: left;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+        .top-alert strong {
+            display: block;
+            margin-bottom: 8px;
+            color: #6f3a00;
+            font-size: 1rem;
+        }
+        .info { color: #1c1c1e; font-size: 14px; margin-top: 30px; line-height: 1.75; text-align: left; background: #fff9e5; padding: 22px 24px; border-radius: 16px; border-left: 6px solid #f5b800; box-shadow: 0 16px 40px rgba(0,0,0,0.08); }
+        .info strong { color: #ac6900; }
+        .info p { margin: 10px 0; }
+        .info .info-title { display: inline-block; margin-bottom: 12px; font-size: 16px; }
 
         /* 반응형 버튼 사이즈 조절 */
         @media (max-width: 768px) {
-            .btn { 
-                padding: 10px; 
-                font-size: 12px; 
-            }
-            .app-card { 
-                padding: 15px; 
-            }
+            body { padding: 18px; }
+            .app-card { padding: 16px; }
+            .btn { margin: 8px 0; }
+            .info { padding: 18px 18px; }
         }
         @media (min-width: 1000px) {
             .btn { 
@@ -67,7 +88,10 @@
 <body>
     <div class="container">
         <h2>Samsung B2B 서비스 설치</h2>
-        
+        <div class="top-alert">
+            <p>등록된 UDID만 설치 가능합니다. 설치가 안된다면</p>
+            <p><strong>UDID를 kdp99</strong>로 알려주시면 등록 후 설치 가능하도록 도와드리겠습니다.</p>
+        </div>
         <div class="app-grid">
             <div class="app-card">
                 <h3>삼성전자 패밀리넷</h3>
@@ -110,11 +134,18 @@
         </div>
 
         <div class="info">
-            <strong>⚠️ 설치 안내</strong><br>
-            1. 반드시 <strong>Safari 브라우저</strong>에서 실행해 주세요.<br>
-            2. '설치' 팝업이 뜨면 확인을 누르고 홈 화면을 확인하세요.<br>
-            3. 실행 시 '신뢰할 수 없는 개발자' 오류가 발생하면:<br>
-            &nbsp;&nbsp;→ <strong>설정 > 일반 > VPN 및 기기 관리</strong>에서 해당 개발자를 <strong>'신뢰'</strong>로 설정해야 합니다.
+            <strong class="info-title">⚠️ 설치 안내</strong>
+            <p>1. 반드시 <strong>Safari 브라우저</strong>에서 실행해 주세요.</p>
+            <p>2. '설치' 팝업이 뜨면 확인을 누르고 홈 화면을 확인하세요.</p>
+            <p>3. 실행 시 '신뢰할 수 없는 개발자' 오류가 발생하면:<br>
+            &nbsp;&nbsp;→ <strong>설정 > 일반 > VPN 및 기기 관리</strong>에서 해당 개발자를 <strong>'신뢰'</strong>로 설정해야 합니다.</p>
+            <p><strong>등록된 UDID만 설치 가능합니다.</strong> UDID를 kdp99로 알려주시면 등록해서 설치 가능하도록 해드리겠습니다.</p>
+            <strong class="info-title">UDID 복사 방법</strong>
+            <p>1. Mac 또는 Windows PC에 iPhone을 연결하세요. 가장 정확한 방법입니다.</p>
+            <p>2. Mac (macOS 10.15 이상): Finder에서 연결된 iPhone을 선택한 후, 기기 이름 아래 모델명을 한 번 클릭하면 UDID가 나타납니다.<br>
+            &nbsp;&nbsp;&nbsp;→ 클릭할 때마다 정보가 바뀌며, 마우스 오른쪽 버튼으로 복사할 수 있습니다.</p>
+            <p>3. Windows 또는 이전 버전 Mac: iTunes를 실행하고 기기 모양 아이콘을 클릭합니다.<br>
+            &nbsp;&nbsp;&nbsp;→ '요약' 탭에서 일련 번호(Serial Number)를 클릭하면 UDID로 바뀝니다. 마우스 오른쪽 버튼으로 복사하세요.</p>
         </div>
     </div>
 </body>
