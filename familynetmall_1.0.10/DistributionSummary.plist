@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>solpopmall.ipa</key>
+	<key>familynetmall.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
@@ -177,22 +177,22 @@
 					<key>entitlements</key>
 					<dict>
 						<key>application-identifier</key>
-						<string>254B9J7846.com.samsung.solpopmall.prd.solNotiService</string>
+						<string>254B9J7846.com.samsung.familynetmall.prd.prdNotiService</string>
 						<key>com.apple.developer.team-identifier</key>
 						<string>254B9J7846</string>
 						<key>get-task-allow</key>
 						<false/>
 					</dict>
 					<key>name</key>
-					<string>solNotiService.appex</string>
+					<string>prdNotiService.appex</string>
 					<key>profile</key>
 					<dict>
 						<key>UUID</key>
-						<string>e1bf22dd-856e-41db-bbd1-99bf2be81cc8</string>
+						<string>860fc2ce-4a0f-4e6b-9117-0840211da1bc</string>
 						<key>dateExpires</key>
 						<string>4/13/27</string>
 						<key>name</key>
-						<string>InHouse_com.samsung.solpopmall.prd.solNotiService</string>
+						<string>InHouse_com.samsung.familynetmall.prd.prdNotiService</string>
 					</dict>
 					<key>team</key>
 					<dict>
@@ -202,13 +202,13 @@
 						<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
 					</dict>
 					<key>versionNumber</key>
-					<string>1.0</string>
+					<string>1.0.4</string>
 				</dict>
 			</array>
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>254B9J7846.com.samsung.solpopmall.prd</string>
+				<string>254B9J7846.com.samsung.familynetmall.prd</string>
 				<key>aps-environment</key>
 				<string>production</string>
 				<key>com.apple.developer.team-identifier</key>
@@ -217,15 +217,15 @@
 				<false/>
 			</dict>
 			<key>name</key>
-			<string>solpopmall.app</string>
+			<string>familynetmall.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>c85016b3-971e-4621-9305-3583e73d04b1</string>
+				<string>33512454-62f9-40cf-b67e-47628db7708c</string>
 				<key>dateExpires</key>
-				<string>11/7/26</string>
+				<string>9/10/27</string>
 				<key>name</key>
-				<string>samsung.solpopmall.prd</string>
+				<string>samsung.familynetmall</string>
 			</dict>
 			<key>team</key>
 			<dict>
@@ -235,7 +235,7 @@
 				<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
 			</dict>
 			<key>versionNumber</key>
-			<string>1.0.9</string>
+			<string>1.0.10</string>
 		</dict>
 	</array>
 </dict>

@@ -1,0 +1,669 @@
+2026-10-02 01:05:26 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7611e4d800; archive(resolved)="<IDEArchive: 0x7618371490>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7611e4d800; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7611e4f000; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c4780; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c6800; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c6300; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c5b80; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c4500; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c4000; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c5900; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x76332bf300; teamID='254B9J7846', teamName='Samsung Electronics Co., Ltd. (Enterprise)', teamType='Enterprise', username='(null)', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x76119c5680; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="(null)">
+	<IDEDistributionContext: 0x76119c5400; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="(null)">
+	<IDEDistributionContext: 0x76119c5180; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="(null)">
+	<IDEDistributionContext: 0x76119de300; archive = "<IDEArchive: 0x7618371490>", distributionMethod="<IDEDistributionMethodiOSEnterprise: 0x7618294300>", team="(null)">
+	<IDEDistributionContext: 0x76196eed00; archive = "<IDEArchive: 0x7618371490>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x761954a580; archive = "<IDEArchive: 0x7618371490>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7611e4d800>
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionCreateDestRootStep
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionCopyItemStep
+2026-10-02 01:05:26 +0000  Running /usr/bin/ditto '-V' '/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app'
+2026-10-02 01:05:26 +0000  >>> Copying /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app 
+2026-10-02 01:05:26 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./samsung_one_korean_700.ttf ... 
+2026-10-02 01:05:26 +0000  hardlinked ./samsung_one_korean_700.ttf
+2026-10-02 01:05:26 +0000  copying file ./AppIcon_SOL76x76@2x~ipad.png ... 
+2026-10-02 01:05:26 +0000  hardlinked ./AppIcon_SOL76x76@2x~ipad.png
+2026-10-02 01:05:26 +0000  copying file ./samsung_sharpsans_bold.ttf ... 
+2026-10-02 01:05:26 +0000  hardlinked ./samsung_sharpsans_bold.ttf
+2026-10-02 01:05:26 +0000  copying file ./Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib
+2026-10-02 01:05:26 +0000  copying file ./Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib
+2026-10-02 01:05:26 +0000  copying file ./Setting.storyboardc/OpenSourceVC.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Setting.storyboardc/OpenSourceVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Setting.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Setting.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Setting.storyboardc/SettingVC.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Setting.storyboardc/SettingVC.nib
+2026-10-02 01:05:26 +0000  copying file ./PlugIns/solNotiService.appex/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./PlugIns/solNotiService.appex/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./PlugIns/solNotiService.appex/embedded.mobileprovision ... 
+2026-10-02 01:05:26 +0000  hardlinked ./PlugIns/solNotiService.appex/embedded.mobileprovision
+2026-10-02 01:05:26 +0000  copying file ./PlugIns/solNotiService.appex/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./PlugIns/solNotiService.appex/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./PlugIns/solNotiService.appex/solNotiService ... 
+2026-10-02 01:05:26 +0000  hardlinked ./PlugIns/solNotiService.appex/solNotiService
+2026-10-02 01:05:26 +0000  copying file ./Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib
+2026-10-02 01:05:26 +0000  copying file ./Alert.storyboardc/BasicAlertVC.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Alert.storyboardc/BasicAlertVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Alert.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Alert.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./samsung_one_korean_400.ttf ... 
+2026-10-02 01:05:26 +0000  hardlinked ./samsung_one_korean_400.ttf
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/PopupVC.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/PopupVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC2.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideVC2.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC3.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideVC3.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC1.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideVC1.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol3.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol3.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol2.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol2.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol1.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol1.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol4.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol4.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/Main.storyboardc/WebViewController.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/Main.storyboardc/WebViewController.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-10-02 01:05:26 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./AppIcon_SOL60x60@2x.png ... 
+2026-10-02 01:05:26 +0000  hardlinked ./AppIcon_SOL60x60@2x.png
+2026-10-02 01:05:26 +0000  copying file ./Assets.car ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Assets.car
+2026-10-02 01:05:26 +0000  copying file ./TouchEn_AntiCapture_License.rsl ... 
+2026-10-02 01:05:26 +0000  hardlinked ./TouchEn_AntiCapture_License.rsl
+2026-10-02 01:05:26 +0000  copying file ./GoogleService-Info-Sol.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./GoogleService-Info-Sol.plist
+2026-10-02 01:05:26 +0000  copying file ./solpopmall ... 
+2026-10-02 01:05:26 +0000  hardlinked ./solpopmall
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/LICENSE ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/LICENSE
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/README.md ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/README.md
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/RSLicenseSDK.framework/Acknowledgements.md ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/Acknowledgements.md
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/RSLicenseSDK.framework/RSLicenseSDK ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/RSLicenseSDK
+2026-10-02 01:05:26 +0000  copying file ./Frameworks/RSLicenseSDK.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./embedded.mobileprovision ... 
+2026-10-02 01:05:26 +0000  hardlinked ./embedded.mobileprovision
+2026-10-02 01:05:26 +0000  copying file ./Info.plist ... 
+2026-10-02 01:05:26 +0000  hardlinked ./Info.plist
+2026-10-02 01:05:26 +0000  copying file ./PkgInfo ... 
+2026-10-02 01:05:26 +0000  hardlinked ./PkgInfo
+2026-10-02 01:05:26 +0000  /usr/bin/ditto exited with 0
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionEmbedProfileStep
+2026-10-02 01:05:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7611f7ca20; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x7617f51110:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c9c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76308c73a0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x7617f50fc0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>
+2026-10-02 01:05:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7611f7c960; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x7611c37250:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c900; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76308c4ee0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x76119dbb80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>
+2026-10-02 01:05:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7611f7c420; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7642cf3400:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c4e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76308c7020; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7642cf3480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>
+2026-10-02 01:05:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7611f7c8a0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x76119d8bd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c840; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76308c71e0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x76182a03c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'>
+2026-10-02 01:05:26 +0000  Skipping profile for item: <IDEDistributionItem: 0x7611f7c1e0; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x7619542d80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c300; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76412fb480; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x761c6c1ff0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'>
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionInfoPlistStep
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionSymbolsStep
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionAppThinningStep
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionArchThinningStep
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework are []
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework are []
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework are []
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework are []
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework are []
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex are []
+2026-10-02 01:05:26 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app are []
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionODRStep
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionStripXattrsStep
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionCodesignStep
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7ca20; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x7617f51110:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c9c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f16c0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x7617f50fc0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>: {
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7ca20; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x7617f51110:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c9c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f16c0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x7617f50fc0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7ca20; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x7617f51110:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c9c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f16c0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x7617f50fc0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~PHD8vp
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~PHD8vp",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-FirebaseAnalytics]
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c960; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x7611c37250:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c900; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0460; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x76119dbb80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>: {
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c960; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x7611c37250:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c900; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0460; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x76119dbb80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7c960; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x7611c37250:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c900; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0460; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x76119dbb80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~jOTcxK
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~jOTcxK",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-GoogleAppMeasurement]
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c420; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7642cf3400:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c4e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0540; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7642cf3480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>: {
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c420; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7642cf3400:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c4e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0540; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7642cf3480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7c420; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7642cf3400:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c4e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0540; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7642cf3480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~rlRZ9O
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~rlRZ9O",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-GoogleAppMeasurementIdentitySupport]
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c8a0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x76119d8bd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c840; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0620; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x76182a03c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'>: {
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c8a0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x76119d8bd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c840; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0620; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x76182a03c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7c8a0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x76119d8bd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c840; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0620; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x76182a03c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~n9iD7w
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~n9iD7w",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework: signed bundle with Mach-O universal (armv7 armv7s arm64) [com.raonsecure.RSLicenseSDK]
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c1e0; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x7619542d80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c300; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f1a40; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x761c6c1ff0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'>: {
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c1e0; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x7619542d80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c300; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f1a40; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x761c6c1ff0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7c1e0; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x7619542d80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c300; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f1a40; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='(null)', teamID='254B9J7846', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x761c6c1ff0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~lBZeBi
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~lBZeBi",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework: signed bundle with Mach-O thin (arm64) [com.raonsecure.TouchEn-AntiCapture]
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c540; bundleID='com.samsung.solpopmall.prd.solNotiService', path='<DVTFilePath:0x7619611b90:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0000; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd.solNotiService";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.solpopmall.prd.solNotiService', executablePath='<DVTFilePath:0x76182a34e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex/solNotiService'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd.solNotiService";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7c540; bundleID='com.samsung.solpopmall.prd.solNotiService', path='<DVTFilePath:0x7619611b90:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0000; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd.solNotiService";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.solpopmall.prd.solNotiService', executablePath='<DVTFilePath:0x76182a34e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex/solNotiService'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd.solNotiService";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7c540; bundleID='com.samsung.solpopmall.prd.solNotiService', path='<DVTFilePath:0x7619611b90:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7c120; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f0000; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd.solNotiService";
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.solpopmall.prd.solNotiService', executablePath='<DVTFilePath:0x76182a34e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/PlugIns/solNotiService.appex/solNotiService'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~FmAt0t
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~FmAt0t",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/PlugIns/solNotiService.appex"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/PlugIns/solNotiService.appex: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/PlugIns/solNotiService.appex: signed bundle with Mach-O thin (arm64) [com.samsung.solpopmall.prd.solNotiService]
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7cae0; bundleID='com.samsung.solpopmall.prd', path='<DVTFilePath:0x761f42b9c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f1ce0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.solpopmall.prd', executablePath='<DVTFilePath:0x7611e61200:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/solpopmall'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-10-02 01:05:26 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-02 01:05:26 +0000  Entitlements for <IDEDistributionItem: 0x7611f7cae0; bundleID='com.samsung.solpopmall.prd', path='<DVTFilePath:0x761f42b9c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f1ce0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.solpopmall.prd', executablePath='<DVTFilePath:0x7611e61200:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/solpopmall'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}
+2026-10-02 01:05:26 +0000  Writing entitlements for <IDEDistributionItem: 0x7611f7cae0; bundleID='com.samsung.solpopmall.prd', path='<DVTFilePath:0x761f42b9c0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7611f7ca80; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x76303f1ce0; name='iPhone Distribution: Samsung Electronics Co., Ltd.', hash='3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5', serialNumber='3480B8315D778F3506E53289F7D7E79A', certificateKinds='(
+    "1.2.840.113635.100.6.1.4"
+), issueDate='2025-11-06 06:35:59 +0000''>', entitlements='{
+    "application-identifier" = "254B9J7846.com.samsung.solpopmall.prd";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 254B9J7846;
+    "get-task-allow" = 0;
+}', teamID='254B9J7846', identifier='com.samsung.solpopmall.prd', executablePath='<DVTFilePath:0x7611e61200:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-02/solpopmall 10-2-26, 10.04 AM.xcarchive/Products/Applications/solpopmall.app/solpopmall'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~qOC62B
+2026-10-02 01:05:26 +0000  invoking codesign: <NSConcreteTask: 0x7640df58b0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    3F1388AF6571789AB3B0FCE62A863AD0DCAC8DC5,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/entitlements~~~qOC62B",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app"
+)'>
+2026-10-02 01:05:26 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app: signed app bundle with Mach-O thin (arm64) [com.samsung.solpopmall.prd]
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionZipODRItemStep
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionCreateIPAStep
+2026-10-02 01:05:26 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Packages/solpopmall.ipa'
+2026-10-02 01:05:26 +0000  >>> Copying /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root 
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  27562 bytes for ./Payload/solpopmall.app/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/samsung_one_korean_700.ttf ... 
+2026-10-02 01:05:26 +0000  3651976 bytes for ./Payload/solpopmall.app/samsung_one_korean_700.ttf
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/AppIcon_SOL76x76@2x~ipad.png ... 
+2026-10-02 01:05:26 +0000  8834 bytes for ./Payload/solpopmall.app/AppIcon_SOL76x76@2x~ipad.png
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/samsung_sharpsans_bold.ttf ... 
+2026-10-02 01:05:26 +0000  219252 bytes for ./Payload/solpopmall.app/samsung_sharpsans_bold.ttf
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib ... 
+2026-10-02 01:05:26 +0000  5061 bytes for ./Payload/solpopmall.app/Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib ... 
+2026-10-02 01:05:26 +0000  14423 bytes for ./Payload/solpopmall.app/Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Setting.storyboardc/OpenSourceVC.nib ... 
+2026-10-02 01:05:26 +0000  1149 bytes for ./Payload/solpopmall.app/Setting.storyboardc/OpenSourceVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Setting.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  169 bytes for ./Payload/solpopmall.app/Setting.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Setting.storyboardc/SettingVC.nib ... 
+2026-10-02 01:05:26 +0000  27803 bytes for ./Payload/solpopmall.app/Setting.storyboardc/SettingVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/PlugIns/solNotiService.appex/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  2040 bytes for ./Payload/solpopmall.app/PlugIns/solNotiService.appex/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/PlugIns/solNotiService.appex/embedded.mobileprovision ... 
+2026-10-02 01:05:26 +0000  12304 bytes for ./Payload/solpopmall.app/PlugIns/solNotiService.appex/embedded.mobileprovision
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/PlugIns/solNotiService.appex/Info.plist ... 
+2026-10-02 01:05:26 +0000  969 bytes for ./Payload/solpopmall.app/PlugIns/solNotiService.appex/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/PlugIns/solNotiService.appex/solNotiService ... 
+2026-10-02 01:05:26 +0000  91792 bytes for ./Payload/solpopmall.app/PlugIns/solNotiService.appex/solNotiService
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib ... 
+2026-10-02 01:05:26 +0000  9430 bytes for ./Payload/solpopmall.app/Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Alert.storyboardc/BasicAlertVC.nib ... 
+2026-10-02 01:05:26 +0000  12156 bytes for ./Payload/solpopmall.app/Alert.storyboardc/BasicAlertVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Alert.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  145 bytes for ./Payload/solpopmall.app/Alert.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/samsung_one_korean_400.ttf ... 
+2026-10-02 01:05:26 +0000  3590680 bytes for ./Payload/solpopmall.app/samsung_one_korean_400.ttf
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib ... 
+2026-10-02 01:05:26 +0000  2607 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib ... 
+2026-10-02 01:05:26 +0000  1392 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/PopupVC.nib ... 
+2026-10-02 01:05:26 +0000  1035 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/PopupVC.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib ... 
+2026-10-02 01:05:26 +0000  10870 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib ... 
+2026-10-02 01:05:26 +0000  4545 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideVC2.nib ... 
+2026-10-02 01:05:26 +0000  967 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideVC2.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideVC3.nib ... 
+2026-10-02 01:05:26 +0000  967 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideVC3.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib ... 
+2026-10-02 01:05:26 +0000  21424 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib ... 
+2026-10-02 01:05:26 +0000  2635 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideVC1.nib ... 
+2026-10-02 01:05:26 +0000  967 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideVC1.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib ... 
+2026-10-02 01:05:26 +0000  1840 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib ... 
+2026-10-02 01:05:26 +0000  2621 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib ... 
+2026-10-02 01:05:26 +0000  2603 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-10-02 01:05:26 +0000  2695 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib ... 
+2026-10-02 01:05:26 +0000  4608 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib ... 
+2026-10-02 01:05:26 +0000  5357 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib ... 
+2026-10-02 01:05:26 +0000  2625 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol3.nib ... 
+2026-10-02 01:05:26 +0000  968 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol3.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol2.nib ... 
+2026-10-02 01:05:26 +0000  968 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol2.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib ... 
+2026-10-02 01:05:26 +0000  2662 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol1.nib ... 
+2026-10-02 01:05:26 +0000  968 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol1.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib ... 
+2026-10-02 01:05:26 +0000  2658 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol4.nib ... 
+2026-10-02 01:05:26 +0000  968 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/GuideSol4.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  661 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/WebViewController.nib ... 
+2026-10-02 01:05:26 +0000  1156 bytes for ./Payload/solpopmall.app/Base.lproj/Main.storyboardc/WebViewController.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-10-02 01:05:26 +0000  1225 bytes for ./Payload/solpopmall.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-10-02 01:05:26 +0000  924 bytes for ./Payload/solpopmall.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-10-02 01:05:26 +0000  258 bytes for ./Payload/solpopmall.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/AppIcon_SOL60x60@2x.png ... 
+2026-10-02 01:05:26 +0000  7218 bytes for ./Payload/solpopmall.app/AppIcon_SOL60x60@2x.png
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Assets.car ... 
+2026-10-02 01:05:26 +0000  1513080 bytes for ./Payload/solpopmall.app/Assets.car
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/TouchEn_AntiCapture_License.rsl ... 
+2026-10-02 01:05:26 +0000  1096 bytes for ./Payload/solpopmall.app/TouchEn_AntiCapture_License.rsl
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/GoogleService-Info-Sol.plist ... 
+2026-10-02 01:05:26 +0000  603 bytes for ./Payload/solpopmall.app/GoogleService-Info-Sol.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/solpopmall ... 
+2026-10-02 01:05:26 +0000  4489168 bytes for ./Payload/solpopmall.app/solpopmall
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources ... 
+8859 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources
+copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/LICENSE ... 
+2026-10-02 01:05:26 +0000  1481 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/LICENSE
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture ... 
+2026-10-02 01:05:26 +0000  511824 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings ... 
+2026-10-02 01:05:26 +0000  168 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html ... 
+2026-10-02 01:05:26 +0000  7938 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css ... 
+2026-10-02 01:05:26 +0000  121220 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css ... 
+2026-10-02 01:05:26 +0000  655 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css ... 
+2026-10-02 01:05:26 +0000  2696 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css ... 
+2026-10-02 01:05:26 +0000  14936 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js ... 
+2026-10-02 01:05:26 +0000  15085 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js ... 
+2026-10-02 01:05:26 +0000  4377 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js ... 
+2026-10-02 01:05:26 +0000  61692 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js ... 
+2026-10-02 01:05:26 +0000  9581 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js ... 
+2026-10-02 01:05:26 +0000  96381 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js ... 
+2026-10-02 01:05:26 +0000  29110 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js ... 
+2026-10-02 01:05:26 +0000  977 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js ... 
+2026-10-02 01:05:26 +0000  2429 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js ... 
+2026-10-02 01:05:26 +0000  24496 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js ... 
+2026-10-02 01:05:26 +0000  10612 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist ... 
+2026-10-02 01:05:26 +0000  126 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/README.md ... 
+2026-10-02 01:05:26 +0000  27194 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/README.md
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  845 bytes for ./Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  1798 bytes for ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-10-02 01:05:26 +0000  51504 bytes for ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  647 bytes for ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  1798 bytes for ./Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-10-02 01:05:26 +0000  51504 bytes for ./Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  638 bytes for ./Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  1798 bytes for ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-10-02 01:05:26 +0000  51536 bytes for ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  692 bytes for ./Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources ... 
+2026-10-02 01:05:26 +0000  2102 bytes for ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/Acknowledgements.md ... 
+2026-10-02 01:05:26 +0000  5887 bytes for ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/Acknowledgements.md
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK ... 
+2026-10-02 01:05:26 +0000  859856 bytes for ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/Info.plist ... 
+2026-10-02 01:05:26 +0000  709 bytes for ./Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/embedded.mobileprovision ... 
+2026-10-02 01:05:26 +0000  12424 bytes for ./Payload/solpopmall.app/embedded.mobileprovision
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/Info.plist ... 
+2026-10-02 01:05:26 +0000  3034 bytes for ./Payload/solpopmall.app/Info.plist
+2026-10-02 01:05:26 +0000  copying file ./Payload/solpopmall.app/PkgInfo ... 
+2026-10-02 01:05:26 +0000  8 bytes for ./Payload/solpopmall.app/PkgInfo
+2026-10-02 01:05:26 +0000  /usr/bin/ditto exited with 0
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2026-10-02 01:05:26 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-10-02 01:05:26 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-10-02 01:05:26 +0000  IDEDistributionItem init <DVTFilePath:0x761c7a8700:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/RSLicenseSDK.framework'>
+2026-10-02 01:05:26 +0000  IDEDistributionItem init <DVTFilePath:0x761c7a8c40:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/TouchEn_AntiCapture.framework'>
+2026-10-02 01:05:26 +0000  IDEDistributionItem init <DVTFilePath:0x7642caed80:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>
+2026-10-02 01:05:26 +0000  IDEDistributionItem init <DVTFilePath:0x761c7a9490:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/FirebaseAnalytics.framework'>
+2026-10-02 01:05:26 +0000  IDEDistributionItem init <DVTFilePath:0x761c7a9340:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/Frameworks/GoogleAppMeasurement.framework'>
+2026-10-02 01:05:26 +0000  IDEDistributionItem init <DVTFilePath:0x761c7a8af0:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app/PlugIns/solNotiService.appex'>
+2026-10-02 01:05:27 +0000  IDEDistributionItem init <DVTFilePath:0x7611d1ad00:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~Uqd4IF/Root/Payload/solpopmall.app'>
+2026-10-02 01:05:27 +0000  Processing step: IDEDistributionCreateManifestStep

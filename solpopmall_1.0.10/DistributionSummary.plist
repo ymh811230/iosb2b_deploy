@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>welfaremall.ipa</key>
+	<key>solpopmall.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
@@ -177,22 +177,22 @@
 					<key>entitlements</key>
 					<dict>
 						<key>application-identifier</key>
-						<string>254B9J7846.com.samsung.welfare.ios.notification</string>
+						<string>254B9J7846.com.samsung.solpopmall.prd.solNotiService</string>
 						<key>com.apple.developer.team-identifier</key>
 						<string>254B9J7846</string>
 						<key>get-task-allow</key>
 						<false/>
 					</dict>
 					<key>name</key>
-					<string>welfaremall notification.appex</string>
+					<string>solNotiService.appex</string>
 					<key>profile</key>
 					<dict>
 						<key>UUID</key>
-						<string>d8e41466-c132-45c9-9f38-6e9aa0674a2f</string>
+						<string>e1bf22dd-856e-41db-bbd1-99bf2be81cc8</string>
 						<key>dateExpires</key>
 						<string>4/13/27</string>
 						<key>name</key>
-						<string>InHouse_com.samsung.welfare.ios.notification</string>
+						<string>InHouse_com.samsung.solpopmall.prd.solNotiService</string>
 					</dict>
 					<key>team</key>
 					<dict>
@@ -208,7 +208,7 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>254B9J7846.com.samsung.welfare.ios</string>
+				<string>254B9J7846.com.samsung.solpopmall.prd</string>
 				<key>aps-environment</key>
 				<string>production</string>
 				<key>com.apple.developer.team-identifier</key>
@@ -217,15 +217,15 @@
 				<false/>
 			</dict>
 			<key>name</key>
-			<string>welfaremall.app</string>
+			<string>solpopmall.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>2028d1de-088a-4b5e-bb31-052f6be92cfd</string>
+				<string>22efd8f0-9bf8-4a4a-8d96-649276182f6b</string>
 				<key>dateExpires</key>
-				<string>11/7/26</string>
+				<string>9/10/27</string>
 				<key>name</key>
-				<string>samsung.welfare.ios</string>
+				<string>samsung.solpopmall.prd</string>
 			</dict>
 			<key>team</key>
 			<dict>
@@ -235,7 +235,7 @@
 				<string>Samsung Electronics Co., Ltd. (Enterprise)</string>
 			</dict>
 			<key>versionNumber</key>
-			<string>1.0.9</string>
+			<string>1.0.10</string>
 		</dict>
 	</array>
 </dict>
