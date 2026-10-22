@@ -1,0 +1,624 @@
+2026-10-21 00:50:04 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7974ac0000; archive(resolved)="<IDEArchive: 0x79ba93ff00>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (16, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7974ac0000; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x7974ac0900; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79bbcec280; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79bae22080; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79bae22300; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79b8269e00; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79b8269900; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79b8268000; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79b8269400; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x798f1c0ac0; teamID='7CAAQRL44H', teamName='Myoung Han Yoo', teamType='Individual', username='famous.developer81@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x79b8268500; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="(null)">
+	<IDEDistributionContext: 0x79b797a800; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="(null)">
+	<IDEDistributionContext: 0x79b80faf80; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="(null)">
+	<IDEDistributionContext: 0x79bb562800; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="<IDEDistributionMethodiOSAdHoc: 0x798c024160>", team="(null)">
+	<IDEDistributionContext: 0x79b8269b80; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x799b83d400; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x79b7a9fc00; archive = "<IDEArchive: 0x79ba93ff00>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7974ac0000>
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionCreateDestRootStep
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionCopyItemStep
+2026-10-21 00:50:04 +0000  Running /usr/bin/ditto '-V' '/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app'
+2026-10-21 00:50:04 +0000  >>> Copying /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app 
+2026-10-21 00:50:04 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-10-21 00:50:04 +0000  hardlinked ./_CodeSignature/CodeResources
+2026-10-21 00:50:04 +0000  copying file ./samsung_one_korean_700.ttf ... 
+2026-10-21 00:50:04 +0000  hardlinked ./samsung_one_korean_700.ttf
+2026-10-21 00:50:04 +0000  copying file ./AppIcon_SOL76x76@2x~ipad.png ... 
+2026-10-21 00:50:04 +0000  hardlinked ./AppIcon_SOL76x76@2x~ipad.png
+2026-10-21 00:50:04 +0000  copying file ./samsung_sharpsans_bold.ttf ... 
+2026-10-21 00:50:04 +0000  hardlinked ./samsung_sharpsans_bold.ttf
+2026-10-21 00:50:04 +0000  copying file ./Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib
+2026-10-21 00:50:04 +0000  copying file ./Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib
+2026-10-21 00:50:04 +0000  copying file ./Setting.storyboardc/OpenSourceVC.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Setting.storyboardc/OpenSourceVC.nib
+2026-10-21 00:50:04 +0000  copying file ./Setting.storyboardc/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Setting.storyboardc/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Setting.storyboardc/SettingVC.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Setting.storyboardc/SettingVC.nib
+2026-10-21 00:50:04 +0000  copying file ./solpopmall stg ... 
+2026-10-21 00:50:04 +0000  hardlinked ./solpopmall stg
+2026-10-21 00:50:04 +0000  copying file ./Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib
+2026-10-21 00:50:04 +0000  copying file ./Alert.storyboardc/BasicAlertVC.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Alert.storyboardc/BasicAlertVC.nib
+2026-10-21 00:50:04 +0000  copying file ./Alert.storyboardc/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Alert.storyboardc/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./samsung_one_korean_400.ttf ... 
+2026-10-21 00:50:04 +0000  hardlinked ./samsung_one_korean_400.ttf
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/PopupVC.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/PopupVC.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC2.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideVC2.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC3.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideVC3.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideVC1.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideVC1.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol3.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol3.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol2.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol2.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol1.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol1.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/GuideSol4.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/GuideSol4.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/Main.storyboardc/WebViewController.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/Main.storyboardc/WebViewController.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-10-21 00:50:04 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./AppIcon_SOL60x60@2x.png ... 
+2026-10-21 00:50:04 +0000  hardlinked ./AppIcon_SOL60x60@2x.png
+2026-10-21 00:50:04 +0000  copying file ./Assets.car ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Assets.car
+2026-10-21 00:50:04 +0000  copying file ./GoogleService-Info-Sol.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./GoogleService-Info-Sol.plist
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/LICENSE ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/LICENSE
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/README.md ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/README.md
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/TouchEn_AntiCapture.framework/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/TouchEn_AntiCapture.framework/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/RSLicenseSDK.framework/Acknowledgements.md ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/Acknowledgements.md
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/RSLicenseSDK.framework/RSLicenseSDK ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/RSLicenseSDK
+2026-10-21 00:50:04 +0000  copying file ./Frameworks/RSLicenseSDK.framework/Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Frameworks/RSLicenseSDK.framework/Info.plist
+2026-10-21 00:50:04 +0000  copying file ./embedded.mobileprovision ... 
+2026-10-21 00:50:04 +0000  hardlinked ./embedded.mobileprovision
+2026-10-21 00:50:04 +0000  copying file ./Info.plist ... 
+2026-10-21 00:50:04 +0000  hardlinked ./Info.plist
+2026-10-21 00:50:04 +0000  copying file ./PkgInfo ... 
+2026-10-21 00:50:04 +0000  hardlinked ./PkgInfo
+2026-10-21 00:50:04 +0000  /usr/bin/ditto exited with 0
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionEmbedProfileStep
+2026-10-21 00:50:04 +0000  Skipping profile for item: <IDEDistributionItem: 0x79baf89140; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x79b832fcd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bea0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79bacc8fc0; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x79b832cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>
+2026-10-21 00:50:04 +0000  Skipping profile for item: <IDEDistributionItem: 0x79baf8adc0; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x79b832f480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baf91c00; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x79b832ff70:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>
+2026-10-21 00:50:04 +0000  Skipping profile for item: <IDEDistributionItem: 0x79baf89b00; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7973bf8b00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89b60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79bacc8fc0; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7973bf8c80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>
+2026-10-21 00:50:04 +0000  Skipping profile for item: <IDEDistributionItem: 0x79baf8bae0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x79b832f1e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89500; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79b6bd7640; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x79bb8a4840:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'>
+2026-10-21 00:50:04 +0000  Skipping profile for item: <IDEDistributionItem: 0x79baf88c00; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x79b832f560:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8ad60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79b81638e0; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x79b3be25a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'>
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionInfoPlistStep
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionSymbolsStep
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionAppThinningStep
+2026-10-21 00:50:04 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionArchThinningStep
+2026-10-21 00:50:04 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework are []
+2026-10-21 00:50:04 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework are []
+2026-10-21 00:50:04 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework are []
+2026-10-21 00:50:04 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework are []
+2026-10-21 00:50:04 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework are []
+2026-10-21 00:50:04 +0000  Archs to thin for item /Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app are []
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionODRStep
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionStripXattrsStep
+2026-10-21 00:50:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-21 00:50:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-21 00:50:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-21 00:50:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-21 00:50:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-21 00:50:04 +0000  Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-21 00:50:04 +0000  Processing step: IDEDistributionCodesignStep
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf89140; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x79b832fcd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bea0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04a80; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x79b832cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>: {
+}
+2026-10-21 00:50:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf89140; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x79b832fcd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bea0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04a80; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x79b832cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-21 00:50:04 +0000  Writing entitlements for <IDEDistributionItem: 0x79baf89140; bundleID='com.firebase.Firebase-FirebaseAnalytics', path='<DVTFilePath:0x79b832fcd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bea0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04a80; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-FirebaseAnalytics', executablePath='<DVTFilePath:0x79b832cbd0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~DT2ztk
+2026-10-21 00:50:04 +0000  invoking codesign: <NSConcreteTask: 0x79bab923a0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~DT2ztk",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework"
+)'>
+2026-10-21 00:50:04 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-FirebaseAnalytics]
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf8adc0; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x79b832f480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04b60; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x79b832ff70:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>: {
+}
+2026-10-21 00:50:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf8adc0; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x79b832f480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04b60; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x79b832ff70:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-21 00:50:04 +0000  Writing entitlements for <IDEDistributionItem: 0x79baf8adc0; bundleID='com.firebase.Firebase-GoogleAppMeasurement', path='<DVTFilePath:0x79b832f480:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8bcc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04b60; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurement', executablePath='<DVTFilePath:0x79b832ff70:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~zPg4JN
+2026-10-21 00:50:04 +0000  invoking codesign: <NSConcreteTask: 0x79bab923a0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~zPg4JN",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework"
+)'>
+2026-10-21 00:50:04 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-GoogleAppMeasurement]
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf89b00; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7973bf8b00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89b60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04c40; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7973bf8c80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>: {
+}
+2026-10-21 00:50:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf89b00; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7973bf8b00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89b60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04c40; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7973bf8c80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-21 00:50:04 +0000  Writing entitlements for <IDEDistributionItem: 0x79baf89b00; bundleID='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7973bf8b00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89b60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04c40; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.firebase.Firebase-GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7973bf8c80:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~OfR7cD
+2026-10-21 00:50:04 +0000  invoking codesign: <NSConcreteTask: 0x79bab923a0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~OfR7cD",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework"
+)'>
+2026-10-21 00:50:04 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: signed bundle with Mach-O universal (arm64) [com.firebase.Firebase-GoogleAppMeasurementIdentitySupport]
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf8bae0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x79b832f1e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89500; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04d20; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x79bb8a4840:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'>: {
+}
+2026-10-21 00:50:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf8bae0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x79b832f1e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89500; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04d20; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x79bb8a4840:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-21 00:50:04 +0000  Writing entitlements for <IDEDistributionItem: 0x79baf8bae0; bundleID='com.raonsecure.RSLicenseSDK', path='<DVTFilePath:0x79b832f1e0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf89500; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04d20; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.RSLicenseSDK', executablePath='<DVTFilePath:0x79bb8a4840:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~pUnDaP
+2026-10-21 00:50:04 +0000  invoking codesign: <NSConcreteTask: 0x79bab923a0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~pUnDaP",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework"
+)'>
+2026-10-21 00:50:04 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework: signed bundle with Mach-O universal (armv7 armv7s arm64) [com.raonsecure.RSLicenseSDK]
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf88c00; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x79b832f560:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8ad60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04e00; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x79b3be25a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'>: {
+}
+2026-10-21 00:50:04 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-21 00:50:04 +0000  Entitlements for <IDEDistributionItem: 0x79baf88c00; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x79b832f560:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8ad60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04e00; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x79b3be25a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'> are: {
+}
+2026-10-21 00:50:04 +0000  Writing entitlements for <IDEDistributionItem: 0x79baf88c00; bundleID='com.raonsecure.TouchEn-AntiCapture', path='<DVTFilePath:0x79b832f560:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8ad60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04e00; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='(null)', teamID='7CAAQRL44H', identifier='com.raonsecure.TouchEn-AntiCapture', executablePath='<DVTFilePath:0x79b3be25a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~xaSC90
+2026-10-21 00:50:04 +0000  invoking codesign: <NSConcreteTask: 0x79bab923a0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~xaSC90",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework"
+)'>
+2026-10-21 00:50:05 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework: signed bundle with Mach-O thin (arm64) [com.raonsecure.TouchEn-AntiCapture]
+2026-10-21 00:50:05 +0000  Entitlements for <IDEDistributionItem: 0x79baf88120; bundleID='com.samsung.solpopmall.test.stg', path='<DVTFilePath:0x7973bf8e00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8b0c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04ee0; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='{
+    "application-identifier" = "7CAAQRL44H.com.samsung.solpopmall.test.stg";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 7CAAQRL44H;
+    "get-task-allow" = 1;
+}', teamID='7CAAQRL44H', identifier='com.samsung.solpopmall.test.stg', executablePath='<DVTFilePath:0x79b832f3a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/solpopmall stg'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "7CAAQRL44H.com.samsung.solpopmall.test.stg";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 7CAAQRL44H;
+    "get-task-allow" = 0;
+}
+2026-10-21 00:50:05 +0000  Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-21 00:50:05 +0000  Entitlements for <IDEDistributionItem: 0x79baf88120; bundleID='com.samsung.solpopmall.test.stg', path='<DVTFilePath:0x7973bf8e00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8b0c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04ee0; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='{
+    "application-identifier" = "7CAAQRL44H.com.samsung.solpopmall.test.stg";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 7CAAQRL44H;
+    "get-task-allow" = 1;
+}', teamID='7CAAQRL44H', identifier='com.samsung.solpopmall.test.stg', executablePath='<DVTFilePath:0x79b832f3a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/solpopmall stg'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "7CAAQRL44H.com.samsung.solpopmall.test.stg";
+    "aps-environment" = production;
+    "com.apple.developer.team-identifier" = 7CAAQRL44H;
+    "get-task-allow" = 0;
+}
+2026-10-21 00:50:05 +0000  Writing entitlements for <IDEDistributionItem: 0x79baf88120; bundleID='com.samsung.solpopmall.test.stg', path='<DVTFilePath:0x7973bf8e00:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x79baf8b0c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x79baa04ee0; name='Apple Development: Myoung Han Yoo (YG54XDH284)', hash='05AFCE5D816A7D525D6883A69730896387AC416C', serialNumber='3A438153DC36CF3F81693F9370040268', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-02-20 06:10:42 +0000''>', entitlements='{
+    "application-identifier" = "7CAAQRL44H.com.samsung.solpopmall.test.stg";
+    "aps-environment" = development;
+    "com.apple.developer.team-identifier" = 7CAAQRL44H;
+    "get-task-allow" = 1;
+}', teamID='7CAAQRL44H', identifier='com.samsung.solpopmall.test.stg', executablePath='<DVTFilePath:0x79b832f3a0:'/Users/famous/Library/Developer/Xcode/Archives/2026-10-21/solpopmall stg 10-21-26, 9.49 AM.xcarchive/Products/Applications/solpopmall stg.app/solpopmall stg'>', hardenedRuntime='0'>'> to: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~yz7xtP
+2026-10-21 00:50:05 +0000  invoking codesign: <NSConcreteTask: 0x79bab923a0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3,
+    "--entitlements",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/entitlements~~~yz7xtP",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app"
+)'>
+2026-10-21 00:50:05 +0000  codesign output: /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app: replacing existing signature
+/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app: signed app bundle with Mach-O thin (arm64) [com.samsung.solpopmall.test.stg]
+2026-10-21 00:50:05 +0000  Processing step: IDEDistributionZipODRItemStep
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-21 00:50:05 +0000  Processing step: IDEDistributionCreateIPAStep
+2026-10-21 00:50:05 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root' '/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Packages/solpopmall stg.ipa'
+2026-10-21 00:50:05 +0000  >>> Copying /var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root 
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:05 +0000  26186 bytes for ./Payload/solpopmall stg.app/_CodeSignature/CodeResources
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/samsung_one_korean_700.ttf ... 
+2026-10-21 00:50:05 +0000  3651976 bytes for ./Payload/solpopmall stg.app/samsung_one_korean_700.ttf
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/AppIcon_SOL76x76@2x~ipad.png ... 
+2026-10-21 00:50:05 +0000  8834 bytes for ./Payload/solpopmall stg.app/AppIcon_SOL76x76@2x~ipad.png
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/samsung_sharpsans_bold.ttf ... 
+2026-10-21 00:50:05 +0000  219252 bytes for ./Payload/solpopmall stg.app/samsung_sharpsans_bold.ttf
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib ... 
+2026-10-21 00:50:05 +0000  5061 bytes for ./Payload/solpopmall stg.app/Setting.storyboardc/vkP-RF-CPS-view-2ea-2Q-hl1.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib ... 
+2026-10-21 00:50:05 +0000  14423 bytes for ./Payload/solpopmall stg.app/Setting.storyboardc/7LQ-eo-VKq-view-Mn7-CO-3th.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Setting.storyboardc/OpenSourceVC.nib ... 
+2026-10-21 00:50:05 +0000  1153 bytes for ./Payload/solpopmall stg.app/Setting.storyboardc/OpenSourceVC.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Setting.storyboardc/Info.plist ... 
+2026-10-21 00:50:05 +0000  169 bytes for ./Payload/solpopmall stg.app/Setting.storyboardc/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Setting.storyboardc/SettingVC.nib ... 
+2026-10-21 00:50:05 +0000  27807 bytes for ./Payload/solpopmall stg.app/Setting.storyboardc/SettingVC.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/solpopmall stg ... 
+2026-10-21 00:50:05 +0000  4489200 bytes for ./Payload/solpopmall stg.app/solpopmall stg
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib ... 
+2026-10-21 00:50:05 +0000  9434 bytes for ./Payload/solpopmall stg.app/Alert.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Alert.storyboardc/BasicAlertVC.nib ... 
+2026-10-21 00:50:05 +0000  12176 bytes for ./Payload/solpopmall stg.app/Alert.storyboardc/BasicAlertVC.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Alert.storyboardc/Info.plist ... 
+2026-10-21 00:50:05 +0000  145 bytes for ./Payload/solpopmall stg.app/Alert.storyboardc/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/samsung_one_korean_400.ttf ... 
+2026-10-21 00:50:05 +0000  3590680 bytes for ./Payload/solpopmall stg.app/samsung_one_korean_400.ttf
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib ... 
+2026-10-21 00:50:05 +0000  2607 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/Q3U-I2-mrL-view-3XK-Gd-MrI.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib ... 
+2026-10-21 00:50:05 +0000  1396 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/UIViewController-qc6-ce-ko2.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/PopupVC.nib ... 
+2026-10-21 00:50:05 +0000  1039 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/PopupVC.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib ... 
+2026-10-21 00:50:05 +0000  10874 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/qc6-ce-ko2-view-zfn-k4-gxh.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib ... 
+2026-10-21 00:50:05 +0000  4557 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/UINavigationController-yIa-gt-kSc.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideVC2.nib ... 
+2026-10-21 00:50:05 +0000  967 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideVC2.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideVC3.nib ... 
+2026-10-21 00:50:05 +0000  967 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideVC3.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib ... 
+2026-10-21 00:50:05 +0000  21436 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/UIViewController-s4P-tV-eny.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib ... 
+2026-10-21 00:50:05 +0000  2635 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/cUi-eZ-SMf-view-S3a-W0-wJl.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideVC1.nib ... 
+2026-10-21 00:50:05 +0000  967 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideVC1.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib ... 
+2026-10-21 00:50:05 +0000  1840 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/i5V-As-P0w-view-zgP-PQ-Z21.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib ... 
+2026-10-21 00:50:05 +0000  2621 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/bXw-6F-EZc-view-Ofd-H8-0JV.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib ... 
+2026-10-21 00:50:05 +0000  2603 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/kbv-XG-529-view-Nqq-zM-bjF.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2026-10-21 00:50:05 +0000  2695 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib ... 
+2026-10-21 00:50:05 +0000  4608 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/aer-Ul-Ynq-view-dGY-Nd-eZP.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib ... 
+2026-10-21 00:50:05 +0000  5361 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/s4P-tV-eny-view-Kzz-nX-jyg.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib ... 
+2026-10-21 00:50:05 +0000  2625 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/z5a-0o-7r2-view-144-aI-YAa.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol3.nib ... 
+2026-10-21 00:50:05 +0000  968 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol3.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol2.nib ... 
+2026-10-21 00:50:05 +0000  968 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol2.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib ... 
+2026-10-21 00:50:05 +0000  2662 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/tXe-H5-cCb-view-DgF-Wi-Q0G.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol1.nib ... 
+2026-10-21 00:50:05 +0000  968 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol1.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib ... 
+2026-10-21 00:50:05 +0000  2658 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/JLc-NW-gZD-view-09x-xa-XJM.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol4.nib ... 
+2026-10-21 00:50:05 +0000  968 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/GuideSol4.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2026-10-21 00:50:05 +0000  661 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/WebViewController.nib ... 
+2026-10-21 00:50:05 +0000  1160 bytes for ./Payload/solpopmall stg.app/Base.lproj/Main.storyboardc/WebViewController.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2026-10-21 00:50:05 +0000  1225 bytes for ./Payload/solpopmall stg.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2026-10-21 00:50:05 +0000  924 bytes for ./Payload/solpopmall stg.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2026-10-21 00:50:05 +0000  258 bytes for ./Payload/solpopmall stg.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/AppIcon_SOL60x60@2x.png ... 
+2026-10-21 00:50:05 +0000  7218 bytes for ./Payload/solpopmall stg.app/AppIcon_SOL60x60@2x.png
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Assets.car ... 
+2026-10-21 00:50:05 +0000  1513080 bytes for ./Payload/solpopmall stg.app/Assets.car
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/GoogleService-Info-Sol.plist ... 
+2026-10-21 00:50:05 +0000  603 bytes for ./Payload/solpopmall stg.app/GoogleService-Info-Sol.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:05 +0000  8859 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/LICENSE ... 
+2026-10-21 00:50:05 +0000  1481 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/LICENSE
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture ... 
+2026-10-21 00:50:05 +0000  511824 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/TouchEn_AntiCapture
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings ... 
+2026-10-21 00:50:05 +0000  168 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/en.lproj/Localizable.strings
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html ... 
+2026-10-21 00:50:05 +0000  7938 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/index.html
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css ... 
+2026-10-21 00:50:05 +0000  121220 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap.css
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css ... 
+2026-10-21 00:50:05 +0000  655 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/jquery.fileupload.css
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css ... 
+2026-10-21 00:50:05 +0000  2696 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/index.css
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css ... 
+2026-10-21 00:50:05 +0000  14936 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/css/bootstrap-theme.css
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js ... 
+2026-10-21 00:50:05 +0000  15085 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.ui.widget.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js ... 
+2026-10-21 00:50:05 +0000  4377 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/respond.min.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js ... 
+2026-10-21 00:50:05 +0000  61692 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.fileupload.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js ... 
+2026-10-21 00:50:05 +0000  9581 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/index.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js ... 
+2026-10-21 00:50:05 +0000  96381 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.min.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js ... 
+2026-10-21 00:50:05 +0000  29110 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/bootstrap.min.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js ... 
+2026-10-21 00:50:05 +0000  977 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/tmpl.min.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js ... 
+2026-10-21 00:50:05 +0000  2429 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/html5shiv.min.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js ... 
+2026-10-21 00:50:05 +0000  24496 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.jeditable.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js ... 
+2026-10-21 00:50:05 +0000  10612 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Resources/js/jquery.iframe-transport.js
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist ... 
+2026-10-21 00:50:05 +0000  126 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/GCDWebUploader.bundle/Contents/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/README.md ... 
+2026-10-21 00:50:05 +0000  27194 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/README.md
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/Info.plist ... 
+2026-10-21 00:50:05 +0000  845 bytes for ./Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:05 +0000  1798 bytes for ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-10-21 00:50:05 +0000  51504 bytes for ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-10-21 00:50:05 +0000  647 bytes for ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:05 +0000  1798 bytes for ./Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-10-21 00:50:05 +0000  51504 bytes for ./Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-10-21 00:50:05 +0000  638 bytes for ./Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:05 +0000  1798 bytes for ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-10-21 00:50:05 +0000  51536 bytes for ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-10-21 00:50:05 +0000  692 bytes for ./Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources ... 
+2026-10-21 00:50:05 +0000  2102 bytes for ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/_CodeSignature/CodeResources
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/Acknowledgements.md ... 
+2026-10-21 00:50:05 +0000  5887 bytes for ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/Acknowledgements.md
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK ... 
+2026-10-21 00:50:05 +0000  859856 bytes for ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/RSLicenseSDK
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/Info.plist ... 
+2026-10-21 00:50:05 +0000  709 bytes for ./Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/embedded.mobileprovision ... 
+2026-10-21 00:50:05 +0000  15487 bytes for ./Payload/solpopmall stg.app/embedded.mobileprovision
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/Info.plist ... 
+2026-10-21 00:50:05 +0000  3036 bytes for ./Payload/solpopmall stg.app/Info.plist
+2026-10-21 00:50:05 +0000  copying file ./Payload/solpopmall stg.app/PkgInfo ... 
+2026-10-21 00:50:05 +0000  8 bytes for ./Payload/solpopmall stg.app/PkgInfo
+2026-10-21 00:50:05 +0000  /usr/bin/ditto exited with 0
+2026-10-21 00:50:05 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2026-10-21 00:50:05 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-10-21 00:50:05 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-10-21 00:50:05 +0000  IDEDistributionItem init <DVTFilePath:0x79bae1a1b0:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurement.framework'>
+2026-10-21 00:50:05 +0000  IDEDistributionItem init <DVTFilePath:0x79bae191f0:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/FirebaseAnalytics.framework'>
+2026-10-21 00:50:05 +0000  IDEDistributionItem init <DVTFilePath:0x79bae19570:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/RSLicenseSDK.framework'>
+2026-10-21 00:50:05 +0000  IDEDistributionItem init <DVTFilePath:0x79bae18380:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/TouchEn_AntiCapture.framework'>
+2026-10-21 00:50:05 +0000  IDEDistributionItem init <DVTFilePath:0x7973bf8600:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>
+2026-10-21 00:50:05 +0000  IDEDistributionItem init <DVTFilePath:0x7973f17b80:'/var/folders/4x/d81_590j6m5677fzyww419kr0000gn/T/XcodeDistPipeline.~~~3aPVEK/Root/Payload/solpopmall stg.app'>
+2026-10-21 00:50:05 +0000  Processing step: IDEDistributionCreateManifestStep
