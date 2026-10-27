@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>solpopmall stg.ipa</key>
+	<key>familynetmall stg.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
@@ -158,11 +158,57 @@
 					<key>versionNumber</key>
 					<string>1.0.5</string>
 				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>5DD36B92E569657C474E5CBDFB2BB034CFE6BEF3</string>
+						<key>dateExpires</key>
+						<string>5/11/27</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>7CAAQRL44H.com.samsung.familynetmall.test.stg.stgNotiService</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>7CAAQRL44H</string>
+						<key>get-task-allow</key>
+						<false/>
+					</dict>
+					<key>name</key>
+					<string>stgNotiService.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>2a0e24ed-4102-48a2-b051-f6f00de5ab2f</string>
+						<key>dateExpires</key>
+						<string>5/11/27</string>
+						<key>name</key>
+						<string>iOS Team Ad Hoc Provisioning Profile: com.samsung.familynetmall.test.stg.stgNotiService</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>7CAAQRL44H</string>
+						<key>name</key>
+						<string>Myoung Han Yoo</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
 			</array>
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>7CAAQRL44H.com.samsung.solpopmall.test.stg</string>
+				<string>7CAAQRL44H.com.samsung.familynetmall.test.stg</string>
 				<key>aps-environment</key>
 				<string>production</string>
 				<key>com.apple.developer.team-identifier</key>
@@ -171,15 +217,15 @@
 				<false/>
 			</dict>
 			<key>name</key>
-			<string>solpopmall stg.app</string>
+			<string>familynetmall stg.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>badfbdb5-469b-467f-95b6-a54dc7bd2798</string>
+				<string>33089536-a6e8-491f-b4de-ddde93fbc956</string>
 				<key>dateExpires</key>
 				<string>5/11/27</string>
 				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: com.samsung.solpopmall.test.stg</string>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.samsung.familynetmall.test.stg</string>
 			</dict>
 			<key>team</key>
 			<dict>
